@@ -1,0 +1,20 @@
+{
+	"name": "barba-issue",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npm run development",
+		"development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@barba/core": "^2.6.0",
+		"cross-env": "^6.0.0",
+		"laravel-mix": "^5.0.0"
+	},
+	"devDependencies": {
+		"vue-template-compiler": "^2.6.10"
+	}
+}
